@@ -15,16 +15,22 @@
 
 /* navbar */
 
+* {
+    color: #D4D6B9;
+    font-family: "CatullBQ Regular";
+}
+
 body {
     background-color: #222;
     margin: 0;
-    font-family: "CatullBQ Regular";
     font-size: 18px;
 }
 
 nav {
-    background: rgba(56, 59, 83, 0.5);
+    background: rgba(56, 59, 83, 0.2);
     height: 80px;
+    position: fixed;
+    width: 100%;
     z-index: 1;
 }
 
@@ -84,7 +90,102 @@ nav a:hover::before {
 
 #bgvid {
     max-width: 100%;
-    position: fixed;
-    top: 0;
     z-index: -1;
+}
+
+main, footer {
+    color: #D4D6B9;
+}
+
+#buying {
+    height: 650px;
+}
+
+#buying, #features {
+    background-color: #383B53;
+}
+
+#buying, #news, #features {
+    padding: 30px;
+}
+
+h1, h2 {
+  font-size: 2.3em;
+  text-align: center;
+}
+
+#platform {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    background-color: transparent;
+    cursor: pointer;
+    font-family: "CatullBQ Regular";
+    padding: 2px 35px 2px 5px;
+}
+
+#news {
+    background-color: #32213A;
+    height: 600px;
+}
+
+#features {
+    height: 300px;
+}
+
+#all-news {
+    color: #D5BF86;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #D5BF86;
+    display: block;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
+#news-holder {
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+#news-box {
+    margin-bottom: 2em;
+    display: flex;
+    align-items: stretch;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+article {
+    max-width: 30%;
+}
+
+article img {
+    max-width: 80%;
+}
+
+#info {
+    float: left;
+    height: 55%;
+    width: 1000px;
+    padding: 10px;
+}
+
+#demo {
+    height: 450px;
+    margin-left: 20px;
+}
+
+#buy {
+    margin-left: auto;
+    width: 150px;
+}
+
+#buy p {
+    text-align: center;
+    text-transform: uppercase;
 }
