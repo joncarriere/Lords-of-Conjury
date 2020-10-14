@@ -189,3 +189,28 @@ article img {
     text-align: center;
     text-transform: uppercase;
 }
+
+.footer{
+    height: 300px;
+    margin-top: auto;
+    background-color: #32213a;
+}
+.socialMedias{
+    font-size: 32px;
+    letter-spacing: 30px;
+    color: #f1f0cc;
+    margin-left: 10%;
+}
+.footerInfos{
+    margin-left: 30%;
+}
+.logos{
+    width: 40%;
+    float: left;
+}
+.trademarks{
+    width: 40%;
+    height: 30%;
+    color:#f7ece1;
+    float: left;
+}
