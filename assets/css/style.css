@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "CatullBQ Bold";
+    src: url('../font/CatullBQ\ Bold.ttf');
+}
+
+@font-face {
+    font-family: "CatullBQ Regular";
+    src: url('../font/CatullBQ\ Regular.ttf');
+}
+
+@font-face {
+    font-family: "CatullBQ Italic";
+    src: url('../font/CatullBQ\ Italic.ttf');
+}
+
+/* navbar */
+
+body {
+    background-color: #222;
+    margin: 0;
+    font-family: "CatullBQ Regular";
+    font-size: 18px;
+}
+
+nav {
+    background: rgba(56, 59, 83, 0.5);
+    height: 80px;
+    z-index: 1;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+}
+
+nav a {
+    color: #D4D6B9;
+    font-size: 16px;
+    opacity: 1.0;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #F1F0CC;
+}
+
+nav, nav a, nav a::before {
+    display: block;
+}
+
+nav a::before {
+    content: '';
+    height: 5px;
+    width: 0%;
+    background: #D5BF86;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+/* end navbar */
+
+#bgvid {
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
