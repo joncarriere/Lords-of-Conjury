@@ -42,7 +42,7 @@ header::after {
 
 nav ul {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     margin: 0 auto;
     padding: 0;
     list-style: none;
