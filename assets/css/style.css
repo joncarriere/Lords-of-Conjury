@@ -322,3 +322,13 @@ footer{
 	box-sizing: content-box;
 	text-decoration: none;
 }
+#containerGametitle{
+    width: 40%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+#containerMenu{
+    width: 40%;
+    float: right;
+}
