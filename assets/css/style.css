@@ -166,6 +166,9 @@ article img {
     margin: 0 auto;
     width: 60%;
 }
+#demo > img{
+    border: rgb(213,191,134,.5) 2px solid;
+}
 .align{
     display: flex;
     justify-content: center;
@@ -236,6 +239,8 @@ article img {
     height: 400px;
     width: 700px;
     float: left;
+    border: rgb(213,191,134,.5) 2px solid;
+    box-shadow: 0px 0px 15px 4px #D5BF86;
 }
 footer{
     height: 300px;
@@ -247,6 +252,7 @@ footer{
     letter-spacing: 30px;
     color: #f1f0cc;
     margin-left: 10%;
+    padding-top: 20px;
 }
 .footerInfos{
     margin-left: 30%;
@@ -254,6 +260,7 @@ footer{
 .logos{
     width: 40%;
     float: left;
+    margin-top: 50px;
 }
 .trademarks{
     width: 40%;
@@ -332,4 +339,7 @@ footer{
 #containerMenu{
     width: 40%;
     float: right;
+}
+#logoB{
+    margin-left: 50px;
 }
