@@ -343,3 +343,14 @@ footer{
 #logoB{
     margin-left: 50px;
 }
+#CGU{
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.textCGU{
+    cursor: pointer;
+}
+.textCGU:hover{
+    text-decoration: underline;
+}
